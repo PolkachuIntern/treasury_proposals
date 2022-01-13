@@ -1,6 +1,15 @@
+# Polkachu 2021 Q4 Maintenance
+
 This treasury proposal is between the Kusama Council and Scenic Hills LLC (d.b.a Polkachu), an LLC registered in the United States with EIN 84-4435092.
 
 ## Service description
+- Polkachu maintains a popular dashboard for the Thousand Validators Program. The team has engaged in the Thousand Validators Program's Element chats of both Kusama and Polkadot, seeking feedback and continuously making improvement. When the Program announced a latest scoring changes, Polkachu's frontend was updated within days, even ahead of the official program site. Sample Pages: (Kusama Dashboard)[https://polkachu.com/kusama/thousand_validators]
+ 
+as well as cached validator/nominator performance 
+
+
+
+
 A functioning infrastructure to provide usable blockchain database snapshots for the Kusama network, to the benefit of node operators and validators,
 New snapshots at least once per day. Snapshots are filesystem dumps of the Kusama node storage backend files, of variety RocksDb, of type pruned, with a depth of 1000 blocks, compressed in 7z format, that can be used by validators to quickly spin up or restore their infrastructure,
 A website frontend at polkashots.io with relevant metadata and download links, including a permanent link that always redirects to the most recent snapshot,
