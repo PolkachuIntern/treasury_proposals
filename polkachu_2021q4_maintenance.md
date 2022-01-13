@@ -45,7 +45,8 @@ Below is the Q4 2021 budget:
 ## Q1 2022 Roadmap: Snapshot Service
 We started our Kusama/Polkadot journey in May 2021. In the last 7 months, our site has attracted more and more users, reaching an all-time high of 722 unique users in Dec 2021. As the site becomes more popular, we plan to build additional features for the community. 
 
-    ![Google Analytics Chart](https://i.imgur.com/82xDdmV.png)
+![Google Analytics Chart](https://i.imgur.com/82xDdmV.png)
+
 One major initiative underway is a node snapshot service to supplement the current popular snapshot service provided by Polkashots.io. When we reviewed its treasury proposal a month ago, we were struck that we currently do not have an alternative service: "A unique snapshot service that many independent validators relies on constitues a centralization risk. It remains our hope that other ecosystem participants will step in and offer an alternative service." [Source](https://kusama.polkassembly.io/post/1211). We have already finished the script and should be able to deploy it in the next few weeks. The snapshot script is already open-sourced within an Ansible playbook called "snapshot_script.yml" in the [repo](https://github.com/polkachu/polkadot-validator). 
 
 We briefly communicated with the Polkashots team. We will use the following parameters to be redundant with Polkashots. 
