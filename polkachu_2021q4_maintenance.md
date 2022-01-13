@@ -53,5 +53,5 @@ We briefly communicated with the Polkashots team. We will use the following para
 
 |              | Provider      | Data Center |
 | ------------ | --------------| ----------- |
-| Polkachu.com | Google Cloud  | US          |
-| Polkadots.io | Digital Ocean | EU          |
+| Polkadots.io | Google Cloud  | US          |
+| Polkachu.com | Digital Ocean | EU          |
