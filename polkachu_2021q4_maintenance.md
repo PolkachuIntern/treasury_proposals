@@ -3,26 +3,20 @@
 This treasury proposal is between the Kusama Council and Scenic Hills LLC (d.b.a Polkachu), an LLC registered in the United States with EIN 84-4435092.
 
 ## Service description
-- Polkachu maintains a popular dashboard for the Thousand Validators Program. The team has engaged in the Thousand Validators Program's Element chats of both Kusama and Polkadot, seeking feedback and continuously making improvement. When the Program announced a latest scoring changes, Polkachu's frontend was updated within days, even ahead of the official program site. Sample Pages: (Kusama Dashboard)[https://polkachu.com/kusama/thousand_validators]
+- Polkachu maintains a popular dashboard for the Thousand Validators Program. The team has engaged in the Thousand Validators Program's Element chats of both Kusama and Polkadot, seeking feedback and continuously making improvement. When the Program announced the latest scoring changes, Polkachu's frontend was updated within days, even ahead of the official program site. Sample Pages: [Kusama Dashboard](https://polkachu.com/kusama/thousand_validators) and [Polkadot Dashboard](https://polkachu.com/polkadot/thousand_validator)
  
-as well as cached validator/nominator performance 
+- Polkachu maintains a validaotr/nominator search portal called [Scout](https://polkachu.com/scout). Through the interface, users can quickly look up the historical performance data of a validator/nominator. The data are cached so it is much faster than the official Polkadot JS App. Sample validator profile [here](https://polkachu.com/kusama/validators/CsKvJ4fdesaRALc5swo5iknFDpop7YUwKPJHdmUvBsUcMGb). Sample nominator profile [here](https://polkachu.com/kusama/nominators/HTAeD1dokCVs9MwnC1q9s2a7d2kQ52TAjrxE1y5mj5MFLLA). 
 
+- Polkachu maintains the historical state of the network for Kusama and Polkadot. We track many on-chain metrics each era. Sample pages: [State of Kusama Network](https://polkachu.com/kusama/era_summaries) and [State of Polkadot Network](https://polkachu.com/polkadot/era_summaries). In fact, we were among the first who reported the underperformance of Kusama parachain validation around Era 2642. The screenshots of our page were shared in community chats when we reported the issue. 
 
+## Builder Philosophy
+- **Solve Own Problem**: As a validator on Kusama and Polkadot ourselves, we build tools to solve our own problem initially. Our main struggle was the loading speed and the lack of historical data on the official polkadot app. So we build the site to optimize these two elements. It turns out that the community feels the same pain point like us, 
+- **Optimize on Speed**: We spend lots of time optimizing the page loading speed, which we believe is the main reason why users use our site in stead of the official polkadot app or Thousand Validator Dashboard. 
+- **Caching Historical Data**: Because storage is expensive on-chain, Kusama/Polakdot purge states every 84 eras. To preserve the historical data, we query on-chain data each era and cache them in a relational databse. As a result, our dashboard has more complete historical data with fast loading speed. 
+- **Make Good UI**: Our UI design is simple, clean and functional. We heavily use modern javascript frameworks (vue.js in our case) to make the user interaction delightful. For example, the search on Thousand Validator Dashboard was lightening fast and intuitive. 
 
-
-A functioning infrastructure to provide usable blockchain database snapshots for the Kusama network, to the benefit of node operators and validators,
-New snapshots at least once per day. Snapshots are filesystem dumps of the Kusama node storage backend files, of variety RocksDb, of type pruned, with a depth of 1000 blocks, compressed in 7z format, that can be used by validators to quickly spin up or restore their infrastructure,
-A website frontend at polkashots.io with relevant metadata and download links, including a permanent link that always redirects to the most recent snapshot,
-Best effort incident and problem management,
-Redundant implementation setup which allows for continuity, seamless upgrades and basic disaster recovery & contingency management.
-Context
-Node operators must have a contingency plan for loss of storage. For us at MIDL.dev, it consists of regularly taking snapshots of the node filesystem and backing it up for recovery if needed. We regularly generate these archives for our own benefit as well as the community. All cloud automation code used for generation of snapshots is open-source so node operators can easily replicate the setup in order to be in full control of the generated snapshots.
-
-The website polkashots.io has been operational for a year now and providing Polkadot and Kusama pruned snapshots for validators. It has had excellent uptime. It is very frequently mentioned in the Validator Lounge Matrix channels and there are youtube videos referencing them. It is beneficial to the ecosystem by providing a path for validators to quickly and safely recover from a storage failure or migrate their operations.
-
-Alternatives
-The warp sync feature has been implemented in Polkadot 0.9.9, however it still requires several hours for a full sync.
-
+## Q1 2022 Roadmap
+- 
 A unique snapshot service that many independent validators relies on constitues a centralization risk. It remains our hope that other ecosystem participants will step in and offer an alternative service.
 
 Operational expenses
