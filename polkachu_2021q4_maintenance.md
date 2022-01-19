@@ -28,7 +28,7 @@ The labor cost is 800 USD/month with 1 engineer. (10 hours per month with 80 USD
 
 | Cost Item          | Cost      | 
 | ------------        | --------------| 
-| Labor, monthly    | $800/month  | 
+| Labor, monthly    | $800/month (10 hours per month with 80 USD rate)  | 
 | Website Droplet| $20/month | 
 | Database Droplet| $20/month | 
 
