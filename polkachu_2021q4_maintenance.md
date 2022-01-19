@@ -24,7 +24,7 @@ This treasury proposal is between the Kusama Council and Scenic Hills LLC (d.b.a
 - **Make Good UI**: Our UI design is simple, clean and functional. We heavily use modern javascript frameworks (vue.js in our case) to make the user interaction delightful. For example, the search on Thousand Validator Dashboard was lightening fast and intuitive. 
 
 ## Operational expenses
-The labor cost is 800 USD/month with 1 engineer. (10 hours per month with 80 USD rate). In addition, we pass along the cloud costs with 20% markup. We use Digital Ocean. Below is the unit cost per month:
+The labor cost is 800 USD/month with 1 engineer (10 hours per month with 80 USD rate). In addition, we pass along the cloud costs with 20% markup. We use Digital Ocean. Below is the unit cost per month:
 
 | Cost Item          | Cost      | 
 | ------------        | --------------| 
