@@ -1,6 +1,6 @@
 # Polkachu 2021 Q4 Maintenance
 
-This treasury proposal is between the Kusama Council and Scenic Hills LLC (d.b.a Polkachu), an LLC registered in the United States with EIN 84-4435092.
+This treasury proposal is between the Kusama Council and Scenic Hills LLC (d.b.a Polkachu), an LLC registered in the United States with EIN 84-4435092. This is our first maintenance proposal. 
 
 ## Service description
 - Polkachu maintains a popular dashboard for the Thousand Validators Program. The team has engaged in the Thousand Validators Program's Element chats of both Kusama and Polkadot, seeking feedback and continuously making improvement. When the Program announced the latest scoring changes, Polkachu's frontend was updated within days, even ahead of the official program site. Sample Pages: [Kusama Dashboard](https://polkachu.com/kusama/thousand_validators) and [Polkadot Dashboard](https://polkachu.com/polkadot/thousand_validator)
@@ -39,15 +39,20 @@ Below is the Q4 2021 budget:
 | Website Hosting, total | $60 + $12 markup | 
 | Database Hosting, Total| $60 + $12 markup| 
 | Total| $2544 | 
-| Exchange Rate KSM/USD| TBD | 
-| Proposal (KSM)| TBD | 
+| Exchange Rate KSM/USD| 265.76 USD (100-day average between 1/9 and 1/18 on Subscan | 
+| Proposal (KSM)| 9.57 | 
 
-## Q1 2022 Roadmap: Snapshot Service
-We started our Kusama/Polkadot journey in May 2021. In the last 7 months, our site has attracted more and more users, reaching an all-time high of 722 unique users in Dec 2021. As the site becomes more popular, we plan to build additional features for the community. 
+Since the amount is small, we put the whole expense in this Kusama proposal and will not submit the separate proposal on Polkadot. 
+
+## Q4 2021 Recap
+We started our Kusama/Polkadot journey in May 2021. In the last 7 months, our site has attracted more and more users, reaching an all-time high of 722 unique users in Dec 2021. 
 
 ![Google Analytics Chart](https://i.imgur.com/82xDdmV.png)
 
-One major initiative underway is a node snapshot service to supplement the current popular snapshot service provided by Polkashots.io. When we reviewed its treasury proposal a month ago, we were struck that we currently do not have an alternative service: "A unique snapshot service that many independent validators relies on constitues a centralization risk. It remains our hope that other ecosystem participants will step in and offer an alternative service." [Source](https://kusama.polkassembly.io/post/1211). We have already finished the script and should be able to deploy it in the next few weeks. The snapshot script is already open-sourced within an Ansible playbook called "snapshot_script.yml" in the [repo](https://github.com/polkachu/polkadot-validator). 
+# Q1 2022 Roadmap
+While this is beyond the scope of this maintenance proposal, We want to take this opportunity to discuss our future roadmap and demonstrate our continued commitment to the Kusama/polkadot ecosystem. 
+
+One major initiative underway is a node snapshot service to supplement the current popular snapshot service provided by Polkashots.io. When we reviewed its treasury proposal a month ago, we were struck that we currently do not have an alternative service: "A unique snapshot service that many independent validators relies on constitues a centralization risk. It remains our hope that other ecosystem participants will step in and offer an alternative service." [Source](https://kusama.polkassembly.io/post/1211). 
 
 We briefly communicated with the Polkashots team. We will use the following parameters to be redundant with Polkashots. 
 
@@ -55,3 +60,9 @@ We briefly communicated with the Polkashots team. We will use the following para
 | ------------ | --------------| ----------- |
 | Polkadots.io | Google Cloud  | US          |
 | Polkachu.com | Digital Ocean | EU          |
+
+We have finished the snapshot script and deployed it to production. The snapshot script is open-sourced within an Ansible playbook called "snapshot_script.yml" in the [repo](https://github.com/polkachu/polkadot-validator). The snapshots are available at [https://polkachu.com/snapshots](https://polkachu.com/snapshots). It covers both Kusama and Polkadot and both RocksDB and ParityDB. Besides, we will retain three snapshots (~1M blocks apart for each snapshot) in each category so they are robust against any unforeseen catastrophes. 
+
+
+
+
