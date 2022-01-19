@@ -39,7 +39,7 @@ Below is the Q4 2021 budget:
 | Website Hosting, total | $60 + $12 markup | 
 | Database Hosting, Total| $60 + $12 markup| 
 | Total| $2544 | 
-| Exchange Rate KSM/USD| 265.76 USD (100-day average between 1/9 and 1/18 on Subscan | 
+| Exchange Rate KSM/USD| 265.76 USD (10-day average between 1/9 and 1/18 on Subscan | 
 | Proposal (KSM)| 9.57 | 
 
 Since the amount is small, we put the whole expense in this Kusama proposal and will not submit the separate proposal on Polkadot. 
