@@ -42,7 +42,7 @@ Below is the Q4 2021 budget:
 | Exchange Rate KSM/USD| $265.76 (10-day average between 1/9 and 1/18 on Subscan | 
 | Proposal (KSM)| 9.57 | 
 
-Since the amount is small, we put the whole expense in this Kusama proposal and will not submit the separate proposal on Polkadot. 
+Since the amount is small, we put the whole expense in this Kusama proposal and will not submit a separate proposal on Polkadot. 
 
 ## Q4 2021 Recap
 We started our Kusama/Polkadot journey in May 2021. In the last 7 months, our site has attracted more and more users, reaching an all-time high of 722 unique users in Dec 2021. 
