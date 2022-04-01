@@ -1,8 +1,27 @@
-# Polkachu 2021 Q4 Maintenance
+# Polkachu 2022 Q1 Maintenance
 
 This treasury proposal is between the Kusama Council and Scenic Hills LLC (d.b.a Polkachu), an LLC registered in the United States with EIN 84-4435092. This is our first maintenance proposal. 
 
-## Service description
+
+## 2022 Q1 Projects
+In 2022 Q1, we released two major projects while maintaining all existing ones. 
+
+First, We have started a [node snapshot service](https://polkachu.com/snapshots) to supplement the only existing snapshot service provided by Polkashots.io. We support both RocksDB and ParityDB for Kusama and Polkadot. For each, we take one snapshot each day while keeping another one around 100K block behind (about 1 week ago). 
+
+|              | RocksDB       | ParityDB    |
+| ------------ | --------------| ----------- |
+| Polkadot     | Yes           | Yes         |
+| Kusama       | Yes           | Yes         |
+
+Second, we have launched [Payout Guard](https://polkachu.com/payout_guard) to help small independent validators to trigger payouts automatically each era. This product turns out to be quite popular, especially within the Thousand Validator Program community. Currently, we are managing 20 Polkadot validators and 63 Kusama validators. In 2022 Q1, we processed 159 Polkadot payouts and 5921 Kusama payouts in total. These payouts are triggered through our bot acccounts: [Polkadot](https://polkadot.subscan.io/account/14H2TZhfH13ebngvvUtZLGp8mFGw4DyH5uSSqpYVUnfkhRLu) and [Kusama](https://kusama.subscan.io/account/EAm8eWXxTXFTBEzmAVbhF4vu8r9LCpxsJ2u6QAS5N59VPDF).
+
+|              | Validators    | Payouts     |
+| ------------ | --------------| ----------- |
+| Polkadot     | 20            | 159         |
+| Kusama       | 63            | 5921        |
+
+
+## Overall Service description
 - Polkachu maintains a popular dashboard for the Thousand Validators Program. The team has engaged in the Thousand Validators Program's Element chats of both Kusama and Polkadot, seeking feedback and continuously making improvement. When the Program announced the latest scoring changes, Polkachu's frontend was updated within days, even ahead of the official program site. Sample Pages: [Kusama Dashboard](https://polkachu.com/kusama/thousand_validators) and [Polkadot Dashboard](https://polkachu.com/polkadot/thousand_validator)
  
 - Polkachu maintains a validator/nominator search portal called [Scout](https://polkachu.com/scout). Through the interface, users can quickly look up the historical performance data of a validator/nominator. The data are cached so it is much faster than the official Polkadot JS App. Sample validator profile [here](https://polkachu.com/kusama/validators/CsKvJ4fdesaRALc5swo5iknFDpop7YUwKPJHdmUvBsUcMGb). Sample nominator profile [here](https://polkachu.com/kusama/nominators/HTAeD1dokCVs9MwnC1q9s2a7d2kQ52TAjrxE1y5mj5MFLLA). 
@@ -50,7 +69,7 @@ We started our Kusama/Polkadot journey in May 2021. In the last 7 months, our si
 ![Google Analytics Chart](https://i.imgur.com/82xDdmV.png)
 
 # Q1 2022 Roadmap
-While this is beyond the scope of this maintenance proposal, We want to take this opportunity to discuss our future roadmap and demonstrate our continued commitment to the Kusama/polkadot ecosystem. 
+
 
 One major initiative underway is a node snapshot service to supplement the current popular snapshot service provided by Polkashots.io. When we reviewed its treasury proposal a month ago, we were struck that we currently do not have an alternative service: "A unique snapshot service that many independent validators relies on constitues a centralization risk. It remains our hope that other ecosystem participants will step in and offer an alternative service." [Source](https://kusama.polkassembly.io/post/1211). 
 
