@@ -1,3 +1,3 @@
 # Treasury Proposals
 
-This is a repository for all  Kusama/Polkadot treasury proposals.
+Q4 2021: polkachu_2021q4_maintenance.md
