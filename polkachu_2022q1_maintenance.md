@@ -38,10 +38,10 @@ While it is fun and exciting to release new projects for the community, we also 
 
 
 ## Builder Philosophy
-- **Solve Own Problem**: As a validator on Kusama and Polkadot ourselves, we build tools to solve our own problem initially. For the snapshot service, we used other services so much that we have finally decidecd to offer our own service to provide redundancy for us and for the community. For Payout Guardm, we have been using the payout bot ourselves to work out all the details before we productized it as a community offering. 
+- **Solve Own Problem**: As a validator on Kusama and Polkadot ourselves, we build tools to solve our own problem initially. For the snapshot service, we used other services so much that we have finally decidecd to offer our own service to provide redundancy for us and for the community. For Payout Guard, we have been using the payout bot ourselves to work out all the details before we productize it as a community free offering. 
 - **Optimize on Speed**: We spend lots of time optimizing the page loading speed, which we believe is the main reason why users use our site in stead of the official polkadot app or Thousand Validator Dashboard. 
 - **Make Good UI**: Our UI design is simple, clean and functional. We heavily use modern javascript frameworks (vue.js in our case) to make the user interaction delightful. For example, the search on Thousand Validator Dashboard was lightening fast and intuitive.
-- **Engage with Community**: Before we release a project, we always try to get the feedback from the community first. The Payout Guard idea came out of an Element chat discussion. After its release, we also got feedback so that we fine-tuned the instruction. 
+- **Engage with Community**: Before we release a project, we always try to get the feedback from the community. For example, the Payout Guard idea came out of an Element group chat discussion. After its release, we got some valuable feedback from the community to fine-tune the instruction for the snapshot service. 
 
 ## Operational expenses
 The labor cost is 1600 USD/month with 1 engineer (20 hours per month with 80 USD rate). In addition, we pass along the cloud costs with 20% markup. We use Digital Ocean. Below is the unit cost per month:
