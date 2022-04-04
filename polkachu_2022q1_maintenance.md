@@ -53,7 +53,7 @@ The labor cost is 1600 USD/month with 1 engineer (20 hours per month with 80 USD
 | Database Droplet | $20/month | 
 | Digital Ocean Space (spanshots) |  $17.42 in Jan, $322.68 in Feb and 150.55 in Mar   | 
 
-Below is the Q1 2022 budget:
+Below is the full Q1 2022 budget:
 | Cost Item          | Cost      | 
 | ------------        | --------------| 
 | Labor, total    | $4800 | 
