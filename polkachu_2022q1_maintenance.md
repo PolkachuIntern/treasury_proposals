@@ -63,8 +63,8 @@ Below is the full Q1 2022 budget:
 | Kusama Payout Cost| Rough estimate for 5921 payouts: 0.2 KSM -> $36 | 
 | Polkadot Payout Cost| Rough estimate for 159 payouts: 1.8 DOT -> $36| 
 | Total| $5604 | 
-| Exchange Rate KSM/USD| $265.76 (10-day average between 3/27 and 4/2 on [Subscan](https://kusama.subscan.io/tools/charts?type=price)  | 
-| Proposal (KSM)| ?? | 
+| Exchange Rate KSM/USD| $188.48 (10-day average between 3/27 and 4/2 on [Subscan](https://kusama.subscan.io/tools/charts?type=price)  | 
+| Proposal (KSM)| 29.73 KSM | 
 
 We put the whole expense in this Kusama proposal and will not submit a separate proposal on Polkadot. But we are happy to seperate them out to two unique proposals. 
 
