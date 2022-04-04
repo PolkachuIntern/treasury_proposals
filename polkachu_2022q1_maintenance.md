@@ -60,8 +60,8 @@ Below is the full Q1 2022 budget:
 | Website Hosting, total | $60 + $12 markup | 
 | Database Hosting, Total| $60 + $12 markup| 
 | Digital Ocean Space| $490 + $98 markup| 
-| Kusama Payout Cost| Rough estimate: 0.2 KSM -> $36 | 
-| Polkadot Payout Cost| Rough estimate: 1.8 DOT -> $36| 
+| Kusama Payout Cost| Rough estimate for 5921 payouts: 0.2 KSM -> $36 | 
+| Polkadot Payout Cost| Rough estimate for 159 payouts: 1.8 DOT -> $36| 
 | Total| $5604 | 
 | Exchange Rate KSM/USD| ??  | 
 | Proposal (KSM)| ?? | 
