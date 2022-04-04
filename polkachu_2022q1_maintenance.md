@@ -44,7 +44,7 @@ While it is fun and exciting to release new projects for the community, we also 
 - **Engage with Community**: Before we release a project, we always try to get the feedback from the community. For example, the Payout Guard idea came out of an Element group chat discussion. After its release, we got some valuable feedback from the community to fine-tune the instruction for the snapshot service. 
 
 ## Operational expenses
-The labor cost is 1600 USD/month with 1 engineer (20 hours per month with 80 USD rate). In addition, we pass along the cloud costs with 20% markup. We use Digital Ocean. Below is the unit cost per month:
+The labor cost is 1600 USD/month with 1 engineer (20 hours per month with 80 USD rate). In addition, we pass along the cloud costs with 20% markup. We use Digital Ocean for both the web server and snapshot storage server. Below is the unit cost per month:
 
 | Cost Item          | Cost      | 
 | ------------        | --------------| 
