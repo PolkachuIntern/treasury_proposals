@@ -13,7 +13,7 @@ First, We have started a [node snapshot service](https://polkachu.com/snapshots)
 | Polkadot     | Yes           | Yes         |
 | Kusama       | Yes           | Yes         |
 
-Second, we have launched [Payout Guard](https://polkachu.com/payout_guard) to help small independent validators to trigger payouts automatically each era. This product turns out to be quite popular, especially within the Thousand Validator Program community. Currently, we are managing 20 Polkadot validators and 63 Kusama validators. In 2022 Q1, we processed 159 Polkadot payouts and 5921 Kusama payouts in total. These payouts are triggered through our bot acccounts: [Polkadot](https://polkadot.subscan.io/account/14H2TZhfH13ebngvvUtZLGp8mFGw4DyH5uSSqpYVUnfkhRLu) and [Kusama](https://kusama.subscan.io/account/EAm8eWXxTXFTBEzmAVbhF4vu8r9LCpxsJ2u6QAS5N59VPDF).
+Second, we have launched [Payout Guard](https://polkachu.com/payout_guard) to help small independent validators to trigger payouts automatically at no cost of their own each era. This product turns out to be quite popular, especially within the Thousand Validator Program community. Currently, we are managing 20 Polkadot validators and 63 Kusama validators. In 2022 Q1, we processed 159 Polkadot payouts and 5921 Kusama payouts in total. These payouts are triggered through our bot acccounts: [Polkadot](https://polkadot.subscan.io/account/14H2TZhfH13ebngvvUtZLGp8mFGw4DyH5uSSqpYVUnfkhRLu) and [Kusama](https://kusama.subscan.io/account/EAm8eWXxTXFTBEzmAVbhF4vu8r9LCpxsJ2u6QAS5N59VPDF).
 
 |              | Validators    | Payouts     |
 | ------------ | --------------| ----------- |
