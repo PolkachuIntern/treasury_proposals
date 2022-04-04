@@ -51,7 +51,7 @@ The labor cost is 1600 USD/month with 1 engineer (20 hours per month with 80 USD
 | Labor   | $1600/month (20 hours per month with 80 USD rate)  | 
 | Website Droplet | $20/month | 
 | Database Droplet | $20/month | 
-| Digital Ocean Space (spanshots) |  $17.42 in Jan, $322.68 in Feb and 150.55 in Mar   | 
+| Digital Ocean Space (spanshots) |  $17.42 in Jan, $322.68 in Feb and $150.55 in Mar   | 
 
 Below is the full Q1 2022 budget:
 | Cost Item          | Cost      | 
