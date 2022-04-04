@@ -1,6 +1,6 @@
 # Polkachu 2022 Q1 Maintenance
 
-This treasury proposal is between the Kusama Council and Scenic Hills LLC (d.b.a Polkachu), an LLC registered in the United States with EIN 84-4435092. This is our second maintenance proposal. The first proposal can be found [here](/polkachu_2021q4_maintenance.md).
+This treasury proposal is between the Kusama Council and Scenic Hills LLC (d.b.a Polkachu), an LLC registered in the United States with EIN 84-4435092. This is our second quarterly maintenance proposal. The first quarterly proposal can be found [here](/polkachu_2021q4_maintenance.md).
 
 
 ## 2022 Q1 Projects
