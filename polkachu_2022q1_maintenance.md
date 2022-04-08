@@ -52,6 +52,7 @@ The labor cost is 1600 USD/month with 1 engineer (20 hours per month with 80 USD
 | Website Droplet | $20/month | 
 | Database Droplet | $20/month | 
 | Digital Ocean Space (spanshots) |  $17.42 in Jan, $322.68 in Feb and $150.55 in Mar   | 
+| Snapshot Servers (4) | $12/months each * 4 |
 
 Below is the full Q1 2022 budget:
 | Cost Item          | Cost      | 
@@ -59,12 +60,13 @@ Below is the full Q1 2022 budget:
 | Labor, total    | $4800 | 
 | Website Hosting, total | $60 + $12 markup | 
 | Database Hosting, Total| $60 + $12 markup| 
-| Digital Ocean Space| $490 + $98 markup| 
+| Digital Ocean Space, Total| $490 + $98 markup| 
+| Snapshot Servers, Total | $144 + $29 markup| 
 | Kusama Payout Cost| Rough estimate for 5921 payouts: 0.2 KSM -> $36 | 
 | Polkadot Payout Cost| Rough estimate for 159 payouts: 1.8 DOT -> $36| 
-| Total| $5604 | 
+| Total| $5777 | 
 | Exchange Rate KSM/USD| $188.48 (10-day average between 3/27 and 4/2 on [Subscan](https://kusama.subscan.io/tools/charts?type=price)  | 
-| Proposal (KSM)| 29.73 KSM | 
+| Proposal (KSM)| 30.65 KSM | 
 
 We put the whole expense in this Kusama proposal and will not submit a separate proposal on Polkadot. But we are happy to seperate them out to two unique proposals. 
 
